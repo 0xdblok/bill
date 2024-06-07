@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.test-background {
+    background-image: url('./asset/win98.png');
+
+  }
+  .bgg {
+    background-image: url('./asset/bg.png');
+  
+  }
+  .dezoom {
+    background-size: 100%; /* Adjust the percentage to dezoom the background image */
+  }
+  .zoom {
+    background-size: 0%; /* Adjust the percentage to dezoom the background image */
+  }
+
+@import url('./font/stylesheet.css');
