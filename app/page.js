@@ -6,7 +6,7 @@ import Bill from "./component/bill";
 import Tokenomics from "./component/tokenomics";
 export default function Home() {
   return (
-    <div>
+    <div className="bg-[#008080]">
       <Hero />
       <Tokenomics /> <Bill />
       <Footer />
